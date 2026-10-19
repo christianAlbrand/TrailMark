@@ -1,17 +1,15 @@
-//
-//  TrailMarkApp.swift
-//  TrailMark
-//
-//  Created by Christian-SDGKU on 10/10/26.
-//
 
 import SwiftUI
+import TrailMarkCore
 
 @main
 struct TrailMarkApp: App {
+    @State private var model = AppModel()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(model)
         }
     }
 }

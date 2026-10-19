@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  TrailMark
+//  TrailMarkWatch Watch App
 //
 //  Created by Christian-SDGKU on 10/10/26.
 //
