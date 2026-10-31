@@ -65,6 +65,16 @@
 			path = "TrailMarkWatch Watch App";
 			sourceTree = "<group>";
 		};
+		F1F3887E3089950E003ED669 /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F1F3888330899519003ED669 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,10 +100,12 @@
 		F1076F6C307ACB3C00F7041D = {
 			isa = PBXGroup;
 			children = (
+				F1F3887E3089950E003ED669 /* ViewModels */,
 				F1076F77307ACB3C00F7041D /* TrailMark */,
 				F1076F88307ACD5000F7041D /* TrailMarkWatch Watch App */,
 				F1076F98307AD1D400F7041D /* Frameworks */,
 				F1076F76307ACB3C00F7041D /* Products */,
+				F1F3888330899519003ED669 /* Views */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +144,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				F1076F77307ACB3C00F7041D /* TrailMark */,
+				F1F3887E3089950E003ED669 /* ViewModels */,
+				F1F3888330899519003ED669 /* Views */,
 			);
 			name = TrailMark;
 			packageProductDependencies = (
